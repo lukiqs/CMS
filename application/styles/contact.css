@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 4, 2017, 11:01:24 AM
+    Author     : lukiqs
+*/
+
+h3.register{
+    border-left: 3px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    padding:10px;
+}
+
+/*navigatin bar first element*/
+a.nav_bar_fe{
+    text-decoration: none;
+    color: gray;
+    /*border: 1px solid red;*/
+    padding: 3px;
+    margin: 0px;
+    border-left: 2px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+a.nav_bar_fe:hover{
+    color: black;
+    border-left: 2px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+#tabs{
+    border: none;
+}
+
+.ui-widget-header{
+    background:transparent !important;
+}
+
+.ui-tabs{
+    padding: 0 !important;
+    margin-top:40px;
+    position:relative;
+}
+
+.ui-tabs .ui-tabs-nav{
+    padding: 0 !important;
+    position:absolute;
+    margin:-32px -1px 0;
+    border: none;
+}
+
+#tabs .ui-tabs-active {
+    background: #D2D2D2;
+    color: gray;
+    outline: none;
+    border-color: gray;
+}
+
+.register{
+    width: 50%;
+    outline: none;
+    border-radius: 0px;
+    margin-top: 5px;    
+}
+
+button.register{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding:10px;
+/*    padding-left:20px;
+    padding-right:20px;*/
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 120%;
+    border: 1px solid grey;
+    background-color: gray;
+    color: white;
+    /*float: right;*/
+    width: 15%;
+}
+
+button.register:hover{
+    border: 1px solid grey;
+    background-color: white;
+    color: gray;
+}
+
+select.contact{
+    padding: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
